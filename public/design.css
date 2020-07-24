@@ -1,0 +1,99 @@
+body{
+	background-color: #e8f3f8;
+	font: 1em/1.5 sans-serif;
+}
+h1 {
+        text-align: center;
+        font-size: 50px;
+        color: cyan;
+        text-shadow: 2px 2px 2px #CCCCCC;
+        text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+             0 3px 0 #777777, 0 4px 0 #666666,
+             0 5px 0 #555555, 0 6px 0 #444444,
+             0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+             0 9px 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+       margin: 20px auto;
+       width: 320px;
+       color: steelblue;
+}
+
+a:link,a:visited{
+	
+	display:inline-block;
+	padding: 7px;
+	border-color: #2196F3;
+  	color: dodgerblue;
+}
+a:hover,a:active{
+	background: #2196F3;
+  	color: white;
+}
+input {
+	padding: 10px;
+	font-size: inherit;
+}
+button {
+	padding: 10px;
+	font-size: inherit;
+}
+input[type="number"] {
+	margin-bottom: 20px;
+	width: 200px;
+	width=100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+}
+input[type="password"] {
+	margin-bottom: 20px;
+	width: 200px;
+	width=100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+}
+input[type="text"] {
+	margin-bottom: 20px;
+	width: 200px;
+	width=100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+}
+
+input[type="email"] {
+	margin-bottom: 20px;
+	width: 200px;
+	width=100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+}
+input[type="tel"] {
+	display: block;
+	margin-bottom: 20px;
+	width: 200px;
+	width=100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+}
+
+button{
+	
+	width: 131px;
+	width=100%;
+}
+
+input:focus {
+	background: white;
+}
+
+.btn {
+  border-color: #2196F3;
+  color: dodgerblue;
+  background: #FAF6D9;
+}
+
+.btn:hover {
+  background: #2196F3;
+  color: white;
+

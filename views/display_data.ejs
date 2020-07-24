@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%=title %></title>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,500' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="/design.css">
+</head>
+<body>
+<h1><%=status %></h1>
+<a href="/">Go to home page</a>
+<hr>
+<div class="container">
+<table class="table"> 
+	
+		<tr>
+			<th>User id</th>
+			<th>Employee id</th>
+
+			<th>Email
+			</th>
+			<th>Name</th>
+
+			<th>Mobile no
+			</th>
+			<th>Department</th>
+
+		</tr> 
+		<%
+		data.forEach(function(row){
+
+		%>
+
+		<tr>
+			<td><%=row.USER_ID %></td>
+			<td><%=row.EMP_ID %></td>
+			<td><%=row.EMAIL_ID %></td>
+			<td><%=row.NAME %></td>
+			<td><%=row.MOBILE_NO %></td>
+			<td><%=row.DEPARTMENT %></td>
+		</tr>
+
+
+		<%
+	})
+
+
+
+		%>
+
+</table>
+</div>
+
+</body>
+</html>		
